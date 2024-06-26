@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/features/favicon.png" type="image/x-icon">
+
+    <title>StudyFlow</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--Header section starts-->
+
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">
+                <img src="images/features/1.png" alt="" class="logo-img">
+                StudyFlow</a>
+
+            <form action="search.html" method="post" class="search-form">
+                <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/pic-7.jpg" class="image" alt="">
+                <h3 class="name">New User</h3>
+                <p class="role">Student</p>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <!--Header section ends-->
+
+
+    <!--Side-bar section starts-->
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-7.jpg" class="image" alt="">
+            <h3 class="name">New User</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="about.html">
+                <i class="fas fa-question"></i>
+                <span>About</span>
+            </a>
+            <a href="courses.html">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Courses</span>
+            </a>
+            <a href="team.html">
+                <i class="fas fa-users"></i>
+                <span>Team</span>
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-headset"></i>
+                <span>Contact us</span>
+            </a>
+        </nav>
+
+    </div>
+
+    <!--Side-bar section ends-->
+
+    <!--Teacher section starts-
+
+    <section class="team">
+
+        <h1 class="heading">Expert Tutors</h1>
+
+        <form action="" method="post" class="search-tutor">
+
+            <input type="text" name="search_box" maxlength="100" placeholder="search tutor..." required>
+
+            <button type="submit" name="search_tutor" class="fas fa-search"></button>
+
+        </form>
+
+        <div class="box-container">
+
+            <div class="box offer">
+                <h3>Become a Tutor</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eos! Nihil dolores aspernatur cumque nam quidem veritatis tenetur dolorem rem officia assumenda? Alias, fugit aut quibusdam repellat ab voluptate dolorum?</p>
+                <a href="register.html" class="inline-btn">Get Started</a>
+            </div>
+
+            <div class="box">
+
+                <div class="tutor">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>Ms.Wijewardana</h3>
+                        <span>Senior lecturer</span>
+                    </div>
+                </div>
+
+                <p>Playlists : <span>4</span></p>
+                <p>Total videos : <span>4</span></p>
+                <p>Total likes : <span>4</span></p>
+
+                <a href="teacher_profile.html" class="inline-btn">View profile</a>
+
+            </div>
+
+            <div class="box">
+
+                <div class="tutor">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>Ms.Wijewardana</h3>
+                        <span>Senior lecturer</span>
+                    </div>
+                </div>
+
+                <p>Playlists : <span>4</span></p>
+                <p>Total videos : <span>4</span></p>
+                <p>Total likes : <span>4</span></p>
+
+                <a href="teacher_profile.html" class="inline-btn">View profile</a>
+
+            </div>
+
+            <div class="box">
+
+                <div class="tutor">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>Ms.Wijewardana</h3>
+                        <span>Senior lecturer</span>
+                    </div>
+                </div>
+
+                <p>Playlists : <span>4</span></p>
+                <p>Total videos : <span>4</span></p>
+                <p>Total likes : <span>4</span></p>
+
+                <a href="teacher_profile.html" class="inline-btn">View profile</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    Teacher section starts-->
+
+    <!-- Team section starts -->
+
+    <section class="team">
+        <h1 class="heading">Our Team</h1>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="images/features/team-1.jpg" alt="Member 1">
+                <h3>Tharushi Wijesooriya</h3>
+                <p>Project Lead</p>
+                <div class="contact-icons">
+                    <a href="mailto:member1@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/member1"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/member1"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/features/team-2.jpg" alt="Member 2">
+                <h3>Migara Mewantha</h3>
+                <p>Developer</p>
+                <div class="contact-icons">
+                    <a href="mailto:member2@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/member2"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/member2"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/features/team-4(senaya).jpeg" alt="Member 3">
+                <h3>Senaya Wijayakumara</h3>
+                <p>Designer</p>
+                <div class="contact-icons">
+                    <a href="mailto:member3@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/member3"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/member3"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/features/team-3.jpg" alt="Member 4">
+                <h3>Ravikumar Hariharan</h3>
+                <p>Marketing</p>
+                <div class="contact-icons">
+                    <a href="mailto:member4@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/member4"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/member4"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team section ends -->
+
+    <!--Footer section starts-->
+
+    <footer class="footer">
+        <div class="contact-footer">
+            <p> Contact Us</p>
+            <div class="contact-icons">
+                <a href="tel:0773678954"><i class="fas fa-phone"></i></a>
+                <a href="mailto:studyflow.edu24@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        &copy; copyright @ 2024 by <span>Team Zero</span> | all rights reserved!
+
+    </footer>
+
+    <!--Footer section ends-->
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
