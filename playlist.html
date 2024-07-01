@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/features/favicon.png" type="image/x-icon">
+
+    <title>StudyFlow</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--Header section starts-->
+
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">
+                <img src="images/features/1.png" alt="" class="logo-img">
+                StudyFlow</a>
+
+            <form action="search.html" method="post" class="search-form">
+                <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/pic-7.jpg" class="image" alt="">
+                <h3 class="name">New User</h3>
+                <p class="role">Student</p>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <!--Header section ends-->
+
+
+    <!--Side-bar section starts-->
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-7.jpg" class="image" alt="">
+            <h3 class="name">New User</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="about.html">
+                <i class="fas fa-question"></i>
+                <span>About</span>
+            </a>
+            <a href="courses.html">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Courses</span>
+            </a>
+            <a href="team.html">
+                <i class="fas fa-users"></i>
+                <span>Team</span>
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-headset"></i>
+                <span>Contact us</span>
+            </a>
+        </nav>
+
+    </div>
+
+    <!--Side-bar section ends-->
+
+    <!--Playlist section starts-->
+
+    <section class="playlist">
+
+        <h1 class="heading">Playlist Details</h1>
+
+        <div class="row">
+
+            <div class="col">
+                <form action="" method="post" class="save-list">
+                    <button type="submit" name="save_list">
+                        <i class="fas fa-bookmark"></i>
+                        <span>Save playlist</span>
+                    </button>
+                </form>
+                <div class="thumb">
+                    <span>03 videos</span>
+                    <img src="images/thumb-1 Unit-01 Units & Measurements.png" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="tutor">
+                    <img src="images/pic-5.jpg" alt="">
+                    <div>
+                        <h3>Ms.Wijewardana</h3>
+                        <span>Teacher | ABC School</span>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <h3>Unit-01 | Units & Measurements | A/L Physics | complete</h3>
+                    <p>Welcome to our Advanced Level Physics series! In this first part of Unit 01, we dive into the foundational concepts of Units and Measurements. This video is designed for students seeking a deep understanding of physics principles, offering clear explanations and practical examples. Join us as we explore the importance of accurate measurement and the SI unit system, essential for mastering advanced physics topics.</p>
+
+                    <div class="date">
+                        <i class="fas fa-calendar"></i>
+                        <span>09/06/2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Playlist section ends-->
+
+    <!--Video container section starts-->
+
+    <section class="video-container">
+
+        <h1 class="heading">Video Playlist</h1>
+
+        <div class="box-container">
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-1 Unit-01 Units & Measurements(1).png" alt="">
+                <h3>Unit-01 | Units & Measurements | A/L Physics | part 01</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-1-2 Unit-01 Units & Measurements(1).png" alt="">
+                <h3>Unit-01 | Units & Measurements | A/L Physics | part 02</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-1-3 Unit-01 Units & Measurements(1).png"  alt="">
+                <h3>Unit-01 | Units & Measurements | A/L Physics | part 03</h3>
+            </a>
+
+            <!---
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-4 Unit-04 thermodynamics.png" alt="">
+                <h3>Unit-04 | Thermodynamics | A/L Physics | part 01</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-5 gravity.png" alt="">
+                <h3>Unit-05 | Gravitational Field | A/L Physics | part 01</h3>
+            </a>
+
+            <a href="watch-video.html" class="box">
+                <i class="fas fa-play"></i>
+                <img src="images/post-1-6 electricity.png" alt="">
+                <h3>Unit-06 | Electric Field | A/L Physics | part 01</h3>
+            </a>
+
+        -->
+        </div>
+    </section>
+
+    <!--Video container section starts-->
+
+    <!--Footer section starts-->
+
+    <footer class="footer">
+        <div class="contact-footer">
+            <p> Contact Us</p>
+            <div class="contact-icons">
+                <a href="tel:0773678954"><i class="fas fa-phone"></i></a>
+                <a href="mailto:studyflow.edu24@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/studyflow_edu/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/TharushiWijesooriya/StudyFlow_marketing_website_original"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        &copy; copyright @ 2024 by <span>Team Zero</span> | all rights reserved!
+
+    </footer>
+
+    <!--Footer section ends-->
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

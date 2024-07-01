@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/features/favicon.png" type="image/x-icon">
+
+    <title>StudyFlow</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--Header section starts-->
+
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">
+                <img src="images/features/1.png" alt="" class="logo-img">
+                StudyFlow</a>
+
+            <form action="search.html" method="post" class="search-form">
+                <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="images/pic-7.jpg" class="image" alt="">
+                <h3 class="name">New User</h3>
+                <p class="role">Student</p>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <!--Header section ends-->
+
+
+    <!--Side-bar section starts-->
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-7.jpg" class="image" alt="">
+            <h3 class="name">New User</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="about.html">
+                <i class="fas fa-question"></i>
+                <span>About</span>
+            </a>
+            <a href="courses.html">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Courses</span>
+            </a>
+            <a href="team.html">
+                <i class="fas fa-users"></i>
+                <span>Team</span>
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-headset"></i>
+                <span>Contact us</span>
+            </a>
+        </nav>
+
+    </div>
+
+    <!--Side-bar section ends-->
+
+
+    <!--Watch video section starts-->
+
+    <section class="watch-video">
+
+        <div class="video-details">
+
+            <video src="images/vid-1 unit01.mp4" class="video"
+                poster="images/post-1-1 Unit-01 Units & Measurements(1).png" controls autoplay></video>
+            <h3 class="title">Complete HTML Tutorial (part 01)</h3>
+
+            <div class="info">
+                <p>
+                    <i class="fas fa-calendar"></i>
+                    <span>01/06/2024</span>
+                </p>
+
+                <p>
+                    <i class="fas fa-heart"></i>
+                    <span>45 likes</span>
+                </p>
+            </div>
+
+            <div class="tutor">
+                <img src="images/pic-2.jpg" alt="">
+
+                <div>
+                    <h3>Ms.Wijewardana</h3>
+                    <span>Senior lecturer</span>
+                </div>
+            </div>
+
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">view playlist</a>
+                <button type="submit">
+                    <i class="fas fa-heart"></i>
+                    <span>like</span>
+                </button>
+            </form>
+
+            <div class="description">
+                <p>Welcome to our Advanced Level Physics series! In this first part of Unit 01, we dive into the foundational concepts of Units and Measurements. This video is designed for students seeking a deep understanding of physics principles, offering clear explanations and practical examples. Join us as we explore the importance of accurate measurement and the SI unit system, essential for mastering advanced physics topics.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Watch video section ends-->
+
+    <!--Comments section starts-->
+
+    <section class="comments">
+
+        <h1 class="heading">Add a Comment</h1>
+
+        <form action="" method="post" class="add-comment">
+            <textarea name="comment_box" required placeholder="Write your comment..." maxlength="1000" cols="30"
+                rows="10"></textarea>
+            <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+        </form>
+
+        <h1 class="heading">6 Comment</h1>
+
+        <div class="show-comments">
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-7.jpg" alt="">
+
+                    <div>
+                        <h3>Tharushi Wijesooriya</h3>
+                        <span>01/06/2024</span>
+                    </div>
+                </div>
+                <p class="text">This is a comment from Tharushi Wijesooriya</p>
+
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" name="edit_comment" class="inline-option-btn">
+                        Edit Comment
+                    </button>
+
+                    <button type="submit" name="delete_comment" class="inline-delete-btn">
+                        Delete Comment
+                    </button>
+                </form>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-5.jpg" alt="">
+                    <div>
+                        <h3>aveesha Gunathunga</h3>
+                        <span>01/06/2024</span>
+                    </div>
+                </div>
+                <p class="text">Wow amazing video!</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div>
+                        <h3>Nitya Dewmi</h3>
+                        <span>01/06/2024</span>
+                    </div>
+                </div>
+                <p class="text">This video really helped me.</p>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic-1.jpg" alt="">
+                    <div>
+                        <h3>Nimesh Silva</h3>
+                        <span>01/06/2024</span>
+                    </div>
+                </div>
+                <p class="text">This helped me to clear all my doubts.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Comments section ends-->
+
+    <!--Footer section starts-->
+
+    <footer class="footer">
+        <div class="contact-footer">
+            <p> Contact Us</p>
+            <div class="contact-icons">
+                <a href="tel:0773678954"><i class="fas fa-phone"></i></a>
+                <a href="mailto:studyflow.edu24@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/studyflow_edu/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/TharushiWijesooriya/StudyFlow_marketing_website_original"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        &copy; copyright @ 2024 by <span>Team Zero</span> | all rights reserved!
+
+    </footer>
+
+    <!--Footer section ends-->
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
